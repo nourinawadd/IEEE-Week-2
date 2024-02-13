@@ -32,10 +32,10 @@ All the problems that appeared in the assembly language were solved by programmi
 
 ## Programming Languages
 ### History:
-1. 1960 - ALGOL is the first prog. language & appeared in Europe.
-2. 1967 - BCPL (Basic Combined Programming Language) made by Martin Richards
-3. 1970 - B language made by Ken Thompson (BCPL + some features). Based on Unix operating systems (disadvantage) & done at AT&T and Bell labs
-4. 1972 - C made by Dennis Ritchie at Bell labs (ALGOL + BCPL + B + some features). Also based on Unix OS. Many compilers were then released for cross-platforms, which made it compatible with Windows, Linux.
+1. **1960** - ALGOL is the first prog. language & appeared in Europe.
+2. **1967** - BCPL (Basic Combined Programming Language) made by Martin Richards
+3. **1970** - B language made by Ken Thompson (BCPL + some features). Based on Unix operating systems (disadvantage) & done at AT&T and Bell labs
+4. **1972** - C made by Dennis Ritchie at Bell labs (ALGOL + BCPL + B + some features). Also based on Unix OS. Many compilers were then released for cross-platforms, which made it compatible with Windows, Linux.
 
 After this, many languages were made out of C + some features. So, to bring back some standardization in the programming languages, ANSI created the C89 Standard Language in 1989.
 
@@ -60,23 +60,26 @@ It was proposed to the ISO to make this the standard language, and this got appr
    - High-level languages like Java cannot access memory and give absolute addresses to the bus like C.
 2. Layout
 
-Building/ Compilation Process
-A “.c” file is compiled into a “.exe” (executable) file through the tool chain.
-The tool chain used is the GNU C Compiler (GCC) which is free & open-source.
+## Building/ Compilation Process
+- A “.c” file is compiled into a “.exe” (executable) file through the tool chain.
+- The tool chain used is the GNU C Compiler (GCC) which is free & open-source.
 
-Tool Chain
-Native Tool Chain
-Runs on the same architecture of microprocessor.
-Compiles into an executable file.
+### Tool Chain
+1. Native Tool Chain
+   - Runs on the same architecture of microprocessor.
+   - Compiles into an executable file.
 
-Cross Tool Chain
-Runs on different architectures of microprocessors.
-Compiles it into a binary file.
+2. Cross Tool Chain
+   - Runs on different architectures of microprocessors.
+   - Compiles it into a binary file.
 
 Brief explanation of how a tool chain works
-A source file (.c) goes through a preprocessor, where text replacement occurs (including libraries, expanding macros, etc.) and returns a (.i) file.
-This file goes into the compiler and returns a (.s) file.
-Then the (.s) file goes through the assembler and returns an object (.o) file.
-Finally, the object file goes through the linker along with the linker script and static libraries and returns the executable (.exe) file.
+- A source file (.c) goes through a preprocessor, where text replacement occurs (including libraries, expanding macros, etc.) and returns a (.i) file.
+- This file goes into the compiler and returns a (.s) file.
+- Then the (.s) file goes through the assembler and returns an object (.o) file.
+- Finally, the object file goes through the linker along with the linker script and static libraries and returns the executable (.exe) file.
+
+
+
 
 
